@@ -9,3 +9,9 @@ var itens2=[
 ]
 console.log(Number(Math.random()*itens2));
 // sem retorno esperado...
+
+for(a of itens2){
+    b=Math.random()*a
+    console.log(Math.round(b));
+}
+//com math.round sendo usado depois de se gerar uma nova variavel... sucesso
